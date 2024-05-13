@@ -5,7 +5,7 @@ function PredictionResult({ data }) {
         <div className="flex flex-col justify-center items-center">
             <h2 className="text-xl font-semibold mb-4">Prediction Result</h2>
             <div className="bg-gray-200 p-4 rounded w-full max-w-lg">
-                <ul className="list-disc list-none">
+                <ul className=" list-none">
                     {Object.entries(data).map(([className, probability]) => (
                         <li key={className} className="mb-2">{className}: {probability}</li>
                     ))}
