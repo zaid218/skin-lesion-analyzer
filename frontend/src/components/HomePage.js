@@ -8,7 +8,9 @@ function Home() {
     const handlePrediction = (data) => {
         setPrediction(data);
     };
-
+    const resetPrediction = () => {
+        setPrediction(null)
+    }
 
 
     return (
@@ -17,8 +19,8 @@ function Home() {
 
             <h1 className="text-3xl font-bold mt-0 mb-7 text-blue-500">Skin Lesion Prediction Analyzer</h1>
             <Link to='/about' className="text-green-500 font-bold py-1 px-1  mt-1 mb-4 rounded border border-green-500 hover:bg-green-100 hover:cursor-pointer">About</Link>
-            <ImageUpload onPrediction={handlePrediction} />
-            {prediction && <PredictionResult data={prediction} />}
+            <ImageUpload onPrediction={handlePrediction} onReset={resetPrediction} data={prediction} />
+            {prediction && <PredictionResult data={prediction} onReset={resetPrediction} />}
         </div >
     );
 }
