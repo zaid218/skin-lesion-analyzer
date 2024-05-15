@@ -10,6 +10,7 @@
 /templates
 # production
 /build
+/Pipfile.lock
 /frontend/node_modules
 /frontend/package-lock.json
 # misc

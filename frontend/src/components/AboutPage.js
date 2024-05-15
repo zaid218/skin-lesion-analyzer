@@ -38,7 +38,7 @@ function AboutPage() {
 
                 <h2 className="text-2xl font-bold mt-10 mb-6 text-red-500">Published Design</h2>
                 <p>
-                    The design code and the step-by-step process used to train and test the model has been published on Kaggle. You can find the open source notebook <a href="https://www.kaggle.com" target="_blank" rel="noopener noreferrer" className='text-blue-500'>here</a>. The test results are also available in the notebook.
+                    The design code and the step-by-step process used to train and test the model has been published on Kaggle. You can find the open source notebook <a href="https://www.kaggle.com/code/mangleshkumar/myham1000-skin-lesion-cancer-analyser" target="_blank" rel="noopener noreferrer" className='text-blue-500'>here</a>. The test results are also available in the notebook.
                 </p>
 
                 <h2 className="text-2xl font-bold mt-10 mb-6 text-red-500">Dataset License</h2>
