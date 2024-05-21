@@ -1,0 +1,25 @@
+.doctor-portal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('path/to/your/background-image.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: sans-serif; /* Customize font family */
+  color: #333; /* Adjust text color for readability over background */
+}
+
+.doctor-portal h1 {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); /* Add subtle text shadow */
+  color: white; /* Adjust heading color */
+}
+
+.doctor-portal p {
+  margin-bottom: 2rem; /* Add some spacing after the paragraph */
+}
+.absolute.inset-0.bg-black {
+  opacity: 0.3; /* Adjust opacity between 0 (fully transparent) and 1 (fully opaque) */
+}

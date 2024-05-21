@@ -16,13 +16,48 @@ function AboutPage() {
 
                 <h2 className="text-2xl font-bold mt-10 mb-6 text-red-500">Lesion Types</h2>
                 <ul className="list-disc list-inside pl-4">
-                    <li className="mb-2"><strong>nv:</strong> Melanocytic nevi...</li>
-                    <li className="mb-2"><strong>mel (Cancerous):</strong> Melanoma...</li>
-                    <li className="mb-2"><strong>bkl:</strong> "Benign keratosis..."</li>
-                    <li className="mb-2"><strong>bcc:</strong> Basal cell carcinoma...</li>
-                    <li className="mb-2"><strong>akiec:</strong> Actinic Keratoses...</li>
-                    <li className="mb-2"><strong>vasc:</strong> Vascular skin lesions...</li>
-                    <li className="mb-2"><strong>df:</strong> Dermatofibroma...</li>
+                    <li className="mb-8">
+                        <strong>nv:</strong> Melanocytic Nevi (Benign Moles)
+                        <p className="text-base mt-2">
+                            Melanocytic nevi, commonly known as moles, are benign skin growths composed of melanocytes, the cells that produce pigment in the skin. These lesions are usually harmless and may appear as dark brown spots on the skin.
+                        </p>
+                    </li>
+                    <li className="mb-8">
+                        <strong>mel (Cancerous):</strong> Melanoma
+                        <p className="text-base mt-2">
+                            Melanoma is a type of skin cancer that develops from melanocytes, the pigment-producing cells in the skin. It is the most dangerous form of skin cancer and can spread to other parts of the body if not treated early. Melanomas often resemble moles and may vary in color, size, and shape.
+                        </p>
+                    </li>
+                    <li className="mb-8">
+                        <strong>bkl:</strong> Benign Keratosis-Like Lesions
+                        <p className="text-base mt-2">
+                            Benign keratosis-like lesions are non-cancerous growths that may appear similar to actinic keratoses or squamous cell carcinomas. These lesions are usually harmless but should be monitored by a dermatologist.
+                        </p>
+                    </li>
+                    <li className="mb-8">
+                        <strong>bcc:</strong> Basal Cell Carcinoma
+                        <p className="text-base mt-2">
+                            Basal cell carcinoma is a type of skin cancer that arises from basal cells in the epidermis, the outermost layer of the skin. It is the most common form of skin cancer and usually appears as a shiny, pearly bump or a pinkish patch on the skin.
+                        </p>
+                    </li>
+                    <li className="mb-8">
+                        <strong>akiec:</strong> Actinic Keratoses / Intraepithelial Carcinoma
+                        <p className="text-base mt-2">
+                            Actinic keratoses, also known as solar keratoses, are precancerous skin lesions caused by long-term sun exposure. They may develop into squamous cell carcinomas if left untreated. Actinic keratoses often appear as rough, scaly patches on sun-exposed areas of the skin.
+                        </p>
+                    </li>
+                    <li className="mb-8">
+                        <strong>vasc:</strong> Vascular Skin Lesions
+                        <p className="text-base mt-2">
+                            Vascular skin lesions are abnormalities of blood vessels in the skin. They include conditions such as hemangiomas, angiomas, and telangiectasias. These lesions may appear as red or purple discolorations on the skin and can vary in size and shape.
+                        </p>
+                    </li>
+                    <li className="mb-8">
+                        <strong>df:</strong> Dermatofibroma
+                        <p className="text-base mt-2">
+                            Dermatofibromas are benign skin growths that arise from fibroblasts, cells found in the connective tissue of the skin. They are usually firm, raised nodules that may be pink, brown, or reddish in color. Dermatofibromas are typically harmless but may be removed if they cause discomfort or cosmetic concerns.
+                        </p>
+                    </li>
                 </ul>
 
                 <h2 className="text-2xl font-bold mt-10 mb-6 text-red-500">Image Format</h2>
