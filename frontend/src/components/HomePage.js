@@ -27,6 +27,7 @@ function HomePage() {
     };
 
     const handleLogout = () => {
+        resetPrediction();
         localStorage.removeItem('role');
         navigate('/');
     };
